@@ -1,0 +1,144 @@
+/* Responsive CSS for form */
+
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:ital,wght@0,400;1,400');
+
+/* General Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Form Container */
+
+#Formulario {
+  background-image: url("https://st3.depositphotos.com/4544475/15690/i/450/depositphotos_156904110-stock-photo-stylish-professional-tool-hair-cutting.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-color: #000;
+
+}
+
+.formulario {
+  color: #bacee7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+}
+
+.figure,h3 {
+
+  position:absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+h3 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+  color:#105daa;
+  top: 45%;
+  left: 15%;
+
+}
+h3:hover {
+color: blueviolet;
+}
+
+
+.figure {
+  z-index: 0;
+  border-radius: 40%;
+  border:1cap solid  #da9ac4ab;
+  
+}
+.figure:hover {
+  box-shadow: 2px 2px 8px rgba(0,0,0,.6), -2px -2px;
+ 
+}
+/* Form Section */
+
+.section {
+  background-color:rgba(173, 48, 48, 0.63);
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+  border: 1rem solid #943f4d;
+  width: 80%;
+  max-width: 500px;
+  max-height: 615px;
+  position: fixed;
+  left: 50%; /* Centrado horizontalmente */
+  transform: translateX(-50%); /* Desplaza la mitad del ancho del formulario */
+  bottom: 0;
+}
+
+
+section:hover{
+  background-color:rgba(126, 25, 25, 0.365);
+  border: 1rem solid #790f0fbd;
+}
+
+/* Form Elements */
+
+label {
+
+  display: block;
+  margin-bottom: 5px;
+
+  color: #dfd9b1;
+}
+
+input,select {
+  background-color: #d5f3e0;
+  font-family: fantasy;
+  width: 100%;
+  padding: 10px;
+  box-shadow: #38331f;
+  border: 1px solid #330303;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: #000;
+  margin-bottom: 10px;
+}
+
+/* WhatsApp Icon */
+
+.icon-wts {
+  
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+}
+.footer {
+  color: #000;
+  font-size:large;
+  position:absolute;
+  margin-top: 40%;
+  margin-left: 40%;
+
+}
+footer:hover{
+  background-color:transparent;
+  color: #105daa;
+}
+/* Responsive Adjustments */
+
+@media (max-width: 768px) {
+  .section {
+    width: 90%;
+  }
+  .formulario {
+    flex-direction: column-reverse;
+  }
+}
+

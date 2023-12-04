@@ -1,0 +1,212 @@
+/*media query*/
+@media screen {
+    /* Pantallas pequeñas (menos de 600 px) */
+    @media (max-width: 600px) {
+      .article {
+        width: 90%;
+        height: auto;
+      }
+    
+    
+    /* Pantallas medianas (600px a 992px) */
+    @media (min-width: 600px) and (max-width: 992px) {
+      .article {
+        width: 70%;
+        height: auto;
+      }
+    
+    
+   /* Pantallas grandes (992 px o más) */
+    @media (min-width: 992px) {
+      .article {
+        width: 50%;
+        height: auto; }
+        }
+    }
+  }
+}
+*    
+/*Pagina de inicio*/
+.header {
+    background-color:aqua;
+}
+.titulo {
+    text-align: center;
+    text-shadow: #4a4163;
+    font-style: oblique;
+    font-size: 50px;
+    margin-top:auto;
+}
+
+.titulo {
+    animation: color-change 2s linear 1;
+    color: rgb(46, 67, 173);
+}
+
+.titulo:hover {
+    color:#0202059d ;
+}
+.body {
+    background-image: url("https://www.shutterstock.com/image-photo/hairdresser-tools-on-black-background-600nw-1158042907.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width:100%;
+  }
+ 
+
+.strong {
+    text-align: center;
+    text-shadow: #38331f;
+    font-size: 150%;
+    color: #9e9969;
+}
+
+.strong:hover {
+    color: #0202059d;
+
+}
+.article audio {
+    display: block;
+    position: relative;
+    overflow: hidden; 
+}
+
+#historia {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    float: right;
+    margin-top: 20%;
+    margin-left: 70%;
+    margin-right: 10%;
+    padding: 1%;
+    background-color: #000;
+}
+
+p {
+    color:#bacee7;
+}
+
+.p:hover {
+    color: #fff;
+}
+
+#historia:hover {
+   color: #448daf;
+    background-color: rgba(16, 21, 31, 0.877);
+}
+
+.intro {
+    color:rgb(148, 221, 199) ;
+}
+
+#Menu {
+    position:relative;
+    font-size: 1em;
+    padding: 1px;
+    margin: 1px 1px;
+    text-align: center;
+
+}
+
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+ 
+}
+
+.menu li {
+    
+    font-style: normal;
+    font-family: 'Oswald', sans-serif;
+    display: inline;
+    text-align: center;
+    margin: 0px 15px 0px 0px;
+
+}
+
+.menu li a {
+
+    padding: 5x 10px 5px 10px;
+    color: #f7efeff8;
+    background-color: #4a4163;
+    border: 2px solid#243d5af8;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #f7efeff8;
+    color: #4a4163;
+
+}
+
+.img {
+
+    position:relative;
+    height: 50%;
+    width: 50%; 
+   
+}
+aside {
+ 
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+  }
+li {
+
+    color: #000;
+    column-gap: normal;
+    column-fill: balance;
+
+}
+
+aside li {
+
+    flex-wrap: wrap;
+    list-style-type:none;
+    width: 3%;
+    padding: 15px;
+    border-color: #bacee7;
+    display: flex;
+    text-align: center;
+    box-shadow: #fff;
+}
+aside h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+
+  }
+  
+
+h3{
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color:rgb(75, 161, 89)
+ 
+}
+h3:hover {
+    color: aqua;
+}
+.article {
+ 
+    position: relative;
+    overflow: hidden;
+   margin-top: 0%;
+   margin-left: 5%;
+  }
+  #Footer {
+    
+    font-size: 1em;
+    float: right;
+    margin-top: 0px;
+    color:burlywood;
+    background-color:rgba(16, 21, 31, 0.541);
+}
+.footer :hover {
+    color: #fff;
+    background-color:rgba(16, 21, 31, 0.541);
+}

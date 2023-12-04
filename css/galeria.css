@@ -1,0 +1,172 @@
+/*media query*/
+@media screen {
+    /* Pantallas pequeñas (menos de 600 px) */
+    @media (max-width: 600px) {
+      .article {
+        width: 90%;
+        height: auto;
+      }
+    
+    
+    /* Pantallas medianas (600px a 992px) */
+    @media (min-width: 600px) and (max-width: 992px) {
+      .article {
+        width: 70%;
+        height: auto;
+      }
+    
+    
+   /* Pantallas grandes (992 px o más) */
+    @media (min-width: 992px) {
+      .article {
+        width: 50%;
+        height: auto; }
+        }
+    }
+  }
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:ital,wght@0,400;1,400');
+/*estilos galeria*/
+*
+.galeria {
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/736/718/desktop-wallpaper-hair-salon-backgrounds-salon-elements-is-a-full-beauty-salon.jpg");
+    background-color: #000;
+}
+
+.imagen estilos {
+    display:flex;
+    width: 350px;
+    height: 150px;
+
+}
+.img1 {
+    display:flex;
+
+    flex-wrap: wrap;
+    width: 1150px;
+    height: 350px;
+    margin-left: 30%;
+    border:solid black 5px;
+    box-shadow: 10px 10px 30px 10px rgba(218, 169, 169, 0.9);
+}
+.img2 {
+    display:flex;
+
+    flex-wrap: wrap;
+    width: 1150px;
+    height: 350px;
+    border:solid black 4px;
+    box-shadow: 10px 10px 30px 10px rgba(218, 169, 169, 0.9);
+}
+.img3 {
+    display:flex;
+    flex-wrap: wrap;
+    width: 1150px;
+    height: 350px;
+    margin-left: 50%;
+    border:solid black 4px;
+    box-shadow: 10px 10px 30px 10px rgba(218, 169, 169, 0.9);
+}
+.img4 {
+    display:flex;
+    flex-wrap: wrap;
+    width: 1150px;
+    height: 350px;
+    border:solid black 4px;
+    box-shadow: 10px 10px 30px 10px rgba(218, 169, 169, 0.9);
+ 
+}
+.img5 {
+    display:flex;
+    flex-wrap: wrap;
+    width: 1150px;
+    height: 350px;
+    margin-left: 50%;
+    border:solid black 4px;
+    box-shadow: 10px 10px 30px 10px rgba(218, 169, 169, 0.9);
+}
+.img6 {
+    display:flex;
+    flex-wrap: wrap;
+    width: 1150px;
+    height: 350px;
+    border:solid black 4px;
+    box-shadow: 10px 10px 30px 10px rgba(218, 169, 169, 0.9);
+   
+}
+.img7 {
+    display:flex;
+    flex-wrap: wrap;
+    width: 1150px;
+    height: 350px;
+    margin-left: 30%;
+    border:solid black 4px;
+    box-shadow: 10px 10px 30px 10px rgba(218, 169, 169, 0.9);
+}
+.img8 {
+    display:flex;
+    flex-wrap: wrap;
+    width: 1150px;
+    height: 350px;
+    border:solid black 4px;
+    box-shadow: 10px 10px 30px 10px rgba(218, 169, 169, 0.9);
+    
+}
+.img9 {
+    display:flex;
+    width: 750px;
+    height: 350px;
+    margin-left: 10%;
+    border:solid black 4px;
+    box-shadow: 10px 10px 30px 10px rgba(218, 169, 169, 0.9);
+}
+.img10 {
+    display:flex;
+    width: 1150px;
+    height: 350px;
+    border:solid black 4px;
+    box-shadow: 10px 10px 30px 10px rgba(218, 169, 169, 0.9);
+  
+}
+.img11 {
+    display:flex;
+    flex-wrap: wrap;
+    width: 1150px;
+    height: 350px;
+    margin-left: 50%;
+    border:solid black 4px;
+    box-shadow: 10px 10px 30px 10px rgba(218, 169, 169, 0.9);
+}
+.img12 {
+    display:flex;
+    flex-wrap: wrap;
+    width: 1150px;
+    height: 350px;
+    border:solid black 4px;
+    box-shadow: 10px 10px 30px 10px rgba(218, 169, 169, 0.9);
+}
+h1 {
+    text-align: center;
+    text-shadow: #27424eb6;
+    font-size:xx-large;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #bacee7;
+}
+h1:hover {
+    color: #99caaf;
+    background-color:rgba(16, 21, 31, 0.);
+}.footer {
+    color: #99caaf;
+    font-size:large;
+    margin-top: 10%;
+    margin-left: 10%;
+}    
+.footer:hover{
+    background-color:transparent;
+    color: #105daa; 
+}
