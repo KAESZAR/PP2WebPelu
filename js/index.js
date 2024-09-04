@@ -6,7 +6,7 @@ let productos=[]
     .then(data => {
         productos = data;
         cargarProductos(productos);
-    })
+})
 
 //declaro variables
 const contenedorProductos = document.querySelector("#contenedor-productos");
